@@ -2,7 +2,7 @@
 A Python based brain vault system for encrypting and decrypting text data using 7 zip.
 
 ## Getting Started
-Download or clone this repo.  If running on windows, .bat file and associated shortcuts are included, simpling copy them to the desktop for use.
+Download or clone this repo.  If running on windows, .bat file and associated shortcuts are included.
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@ Add 7 zip command line tool to the PATH, so that typing 7za to command line exec
 Test to see if 7zip command line is installed correctly by typing '7za' into command line, you will get a response of available commands.
 
 There are 3 .bat files:
-  1. Create a key / encrypted cipher key file.
+  1. Create a key / encrypted cipher key json file.
   2. Create a lock / encrypted json file.
   3. Unlock / decrypt a json file.
   
@@ -26,7 +26,7 @@ There are 3 .bat files:
 See this video for use:
 
 ## Personalizing
-GUI was created using [Page](https://sourceforge.net/projects/page/), a simple good gui editor for python.
+GUI was created using [Page](https://sourceforge.net/projects/page/), a simple and good gui editor for python. Open SevenCipher.tcl with page to customize ui.
 Page requires [Active TCL](https://www.activestate.com/products/activetcl/) to run.  Download it first, and then page.
 
 GnomicKey.py is the algorithm that constructs the cipher key.  You should customize this algorithm and make your own unique version.
