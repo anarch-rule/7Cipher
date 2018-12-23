@@ -29,7 +29,7 @@ See this video for use:
 GUI was created using [Page](https://sourceforge.net/projects/page/), a simple and good gui editor for python. Open SevenCipher.tcl with page to customize ui.
 Page requires [Active TCL](https://www.activestate.com/products/activetcl/) to run.  Download it first, and then page.
 
-GnomicKey.py is the algorithm that constructs the cipher key.  You should customize this algorithm and make your own unique version.
+GnomicKey.py --> Method: Shape() is the algorithm that constructs the cipher key.  You should customize this algorithm and make your own unique version.
 
 ## License
 Free to use and modify for purposes of keeping your data secure and away from the oligarchy.
