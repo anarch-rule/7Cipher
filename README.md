@@ -8,7 +8,7 @@ Download or clone this repo.  If running on windows, .bat file and associated sh
 
 Python 2.7 tested, some hooks are the for higher version.  Not fully tested on Python 3.
 
-7 Zip Command line / 7za is required get here: (7zip Downloads)[https://www.7-zip.org/download.html]
+7 Zip Command line / 7za is required get here: [7zip Downloads](https://www.7-zip.org/download.html)
 Add 7 zip command line tool to the PATH, so that typing 7za to command line
 executes 7z.exe
 
@@ -17,6 +17,8 @@ There are 3 .bat files:
   1. Create a key / encrypted cipher key file.
   2. Create a lock / encrypted json file.
   3. Unlock / decrypt a json file.
+  
+  Create shortcuts for each .bat, put the shortcut on your desktop.  Uniqur image / .ico are included to set unique image for each shortcut.
 
 See this video for use:
 
