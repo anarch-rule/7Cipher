@@ -17,13 +17,19 @@ Add 7 zip command line tool to the PATH, so that typing 7za to command line exec
 Test to see if 7zip command line is installed correctly by typing '7za' into command line, you will get a response of available commands.
 
 There are 3 .bat files:
-  1. Create a key / encrypted cipher key json file.
-  2. Create a lock / encrypted json file.
-  3. Unlock / decrypt a json file.
+  1. 'CreateKeyData.bat': Create a key / encrypted cipher key json file.
+  2. '7Cipher_Lock.bat': Create a lock / encrypted json file.
+  3. '7Cipher_Unlock.bat': Unlock / decrypt a json file.
   
-  Create shortcuts for each .bat, put the shortcuts on your desktop.  Uniqur image / .ico are included to set unique image for each shortcut.
+  Create shortcuts for each .bat, put the shortcuts on your desktop.  Unique image / .ico are included to set unique image for each shortcut.
 
 ## Running
+Modifying .bat files on windows:
+For each .bat file
+  1. Change path of python: 'c:\python27\python.exe', if it is in a different location.
+  2. Change the path of the 7Cipher: 'C:\7Cipher\SevenCipher.py' repo to match where you have the files located.
+Create a shortcut for each .bat file, copy them to desktop.
+Run CreateKeyData.bat first for initial setup.
 
 On Windows Command Line:
 Initial Setup and New Key Creation
@@ -49,7 +55,7 @@ type: 'python SevenCipher.py -unlock'
 See this video for use:
 
 ## Personalizing
-GUI was created using [Page](https://sourceforge.net/projects/page/), a simple and good gui editor for python. Open SevenCipher.tcl with page to customize ui.
+GUI was created using [Page](https://sourceforge.net/projects/page/), a simple tkinter and good gui editor for python. Open SevenCipher.tcl with page to customize ui.
 Page requires [Active TCL](https://www.activestate.com/products/activetcl/) to run.  Download it first, and then page.
 
 GnomicKey.py --> Method: Shape() is the algorithm that constructs the cipher key.  You should customize this algorithm and make your own unique version.
