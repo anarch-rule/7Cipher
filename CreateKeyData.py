@@ -114,6 +114,9 @@ def CreateKeyDataFiles(key_data, lock_data):
 	JsonUtil.CreateJsonFile(key_path, key_object)
 	print(FormatPromptText("'ANARCH_SELF.json' has been updated with lock data, a new key was saved to:    " + key_path))
 	print(FormatPromptText(" Move:  " + key_path + "   to an external usb drive, to be used as a cipher key."))
+	print(FormatPromptText(" This command promp is closing in 15 seconds...  "))
+
+	time.sleep(15)
 
 
 def ConstructGnomicKeyString():
