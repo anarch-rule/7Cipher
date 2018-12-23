@@ -23,6 +23,29 @@ There are 3 .bat files:
   
   Create shortcuts for each .bat, put the shortcuts on your desktop.  Uniqur image / .ico are included to set unique image for each shortcut.
 
+## Running
+
+On Windows Command Line:
+Initial Setup and New Key Creation
+----------------------------------
+in the search bar type 'cmd'
+if repo downloaded to C drive, type: 'cd C:/7Cipher-master'
+type: 'python CreateKeyData.py'  Follow instruction in creating first cipher key.
+
+Encrypting Text
+----------------------------------
+if repo downloaded to C drive, type: 'cd C:/7Cipher-master'
+type: 'python SevenCipher.py -lock'  
+  1. Load key and data directories, set the file name as prompted.
+  2. Type text you wish to encrypt into the text field, push 'encrypt' button
+  
+Decrypting Text
+----------------------------------
+if repo downloaded to C drive, type: 'cd C:/7Cipher-master'
+type: 'python SevenCipher.py -unlock'  
+  1. Load key and data files as prompted.
+  2. Click into text field and decypted text will appear.
+
 See this video for use:
 
 ## Personalizing
