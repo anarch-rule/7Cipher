@@ -20,6 +20,10 @@ There are 3 .bat files:
 
 See this video for use:
 
+## Personalizing
+GUI was created using [Page](https://sourceforge.net/projects/page/), a simple good gui editor for python.
+Page requires [Active TCL](https://www.activestate.com/products/activetcl/) to run.  Download it first, and then page.
+
 ## License
 
 Keep your data secure and away from the oligarchy.
