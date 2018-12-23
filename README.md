@@ -1,4 +1,4 @@
-# 7Cipher
+# 7Cipher [logo](https://imgur.com/a/fKYYbjs)
 A Python based brain vault system for encrypting and decrypting text data using 7 zip.
 
 ## Getting Started
