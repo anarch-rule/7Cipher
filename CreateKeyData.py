@@ -284,6 +284,14 @@ def DrawAsciiTxt():
     expressed in or of the nature of short, pithy maxims or aphorisms.
     "The rising tide will lift all ships."
 
+
+    Gratitude:
+    			BTC: 3N7VAmRqXDXio33cZ7PU7xS2RRmpLcEjkS
+    			LTC: QhCuRJmGYWFhZbXGtihS6Ta5U5F8JoGKFK
+    			DGB: DGHGgLcnnX9RFfPQ4FhwDL1LA9oMFxWSRt
+    			AEON: WmsTbZ34B4hXPLYLnm8m95KzdKbD5FL445c2oc6qSJK8L7nt1ThjDtMdt7zJNKVaef6Eg2p3C3YRXbouthD9BfQ12ERHBCRTq
+    			STEEM: @Axiom-Prime
+
     """
     )
 	FillerText()
