@@ -114,7 +114,7 @@ def CreateKeyDataFiles(key_data, lock_data):
 	JsonUtil.CreateJsonFile(key_path, key_object)
 	print(FormatPromptText("'ANARCH_SELF.json' has been updated with lock data, a new key was saved to:    " + key_path))
 	print(FormatPromptText(" Move:  " + key_path + "   to an external usb drive, to be used as a cipher key."))
-	print(FormatPromptText(" This command promp is closing in 15 seconds...  "))
+	print(FormatPromptText(" This command prompt is closing in 15 seconds...  "))
 
 	time.sleep(15)
 
@@ -170,7 +170,7 @@ def GnomicSeedPrompt():
 	print(FormatPromptText(" Now we create our gnomic seed.  A sentence / paragraph we can easily remember, seperated by spaces.  A poem, song lyrics, a saying you are fond of."))
 	gnomic_key_sentence = EchoInputPrompt(" Input your gnomic key text. ")
 	print(FormatPromptText(" Please ensure the words in your seed text is free of typos, and errors.  So that you may easily recall it if need be."))
-	confirm_gnomic_key = EchoInputPrompt(" Do accept your key?  ")
+	confirm_gnomic_key = EchoInputPrompt(" Do accept your seed text?  ")
 
 	if Yes(confirm_gnomic_key):
 		HyphenatorPrompt()
