@@ -55,7 +55,7 @@ type: 'python SevenCipher.py -unlock'
 See this video for use:
 
 ## Personalizing
-GUI was created using [Page](https://sourceforge.net/projects/page/), a simple tkinter and good gui editor for python. Open SevenCipher.tcl with page to customize ui.
+GUI was created using [Page](https://sourceforge.net/projects/page/), a simple and good, tkinter based gui editor for python. Open SevenCipher.tcl with page to customize ui.
 Page requires [Active TCL](https://www.activestate.com/products/activetcl/) to run.  Download it first, and then page.
 
 GnomicKey.py --> Method: Shape() is the algorithm that constructs the cipher key.  You should customize this algorithm and make your own unique version.
