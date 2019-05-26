@@ -1,12 +1,14 @@
 import EncryptString
 
-def Shape(words):
+LUCKY_NUMBER = 777
+
+def Shape(words, hyphen):
 	key_shape = ""
-	hyphen = words[0]
-	del words[0]
 
 	for word in words:
 		key_shape = key_shape + hyphen + word
+
+	key_shape = AddLuckyNumber(key_shape)
 
 	return key_shape
 
@@ -20,7 +22,7 @@ def DecryptShape(enc_words, encryption_key):
         word = EncryptString.decrypt(enc_word, encryption_key)
         words.append(word)
 
-    return Shape(words)
+    return Shape(words, hyphenator)
 
 def EncryptedArray(word_array, encryption_key):
 	encrypted_word_array = []
@@ -29,3 +31,12 @@ def EncryptedArray(word_array, encryption_key):
 		encrypted_word_array.append(EncryptString.encrypt(word, encryption_key))
 
 	return encrypted_word_array
+
+def AddLuckyNumber(key_shape):
+	"""Construct simple lucky number string
+	   as an example of personalized string
+	   manipulation algo. Add lucky number
+	   to end of cipher text.  
+    """
+	key_shape = key_shape + "_" + str(LUCKY_NUMBER) + "_"
+	return key_shape

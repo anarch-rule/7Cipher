@@ -8,7 +8,9 @@
 
 import sys
 import os
+import time
 import subprocess
+import pyperclip
 import JsonUtil
 import hashlib
 import EncryptString
@@ -247,6 +249,15 @@ def init(top, gui, *args, **kwargs):
             LoadDataFile(arg)
             DecryptData()
 
+        elif arg == '-key':
+            pyperclip.copy(keyCipher.get())
+            result = tkMessageBox.askquestion("Copy Key", "ok", icon='warning')
+            if result == "yes":
+                destroy_window()
+                time.sleep(10)
+                pyperclip.copy("")
+                sys.exit()
+
 
 def destroy_window():
     # Function which closes the window.
@@ -257,5 +268,3 @@ def destroy_window():
 if __name__ == '__main__':
     import SevenCipher
     SevenCipher.vp_start_gui()
-
-

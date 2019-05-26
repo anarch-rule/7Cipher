@@ -43,6 +43,7 @@ def create_Seven_Cipher(root, *args, **kwargs):
 def destroy_Seven_Cipher():
     global w
     w.destroy()
+    root.destroy()
     w = None
 
 
