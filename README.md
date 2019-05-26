@@ -16,10 +16,15 @@ Python must be installed correctly, so when you type 'python -v' in to the comma
 Add 7 zip command line tool to the PATH, so that typing 7za to command line executes 7z.exe.
 Test to see if 7zip command line is installed correctly by typing '7za' into command line, you will get a response of available commands.
 
+Dependencies:
+  pip install pycrypto
+  pip install pyperclip
+
 There are 3 .bat files:
   1. 'CreateKeyData.bat': Create a key / encrypted cipher key json file.
   2. '7Cipher_Lock.bat': Create a lock / encrypted json file.
   3. '7Cipher_Unlock.bat': Unlock / decrypt a json file.
+  4. '7Cipher_Key.bat': Copy cipher key to clipboard for 10 seconds.
   
   Create shortcuts for each .bat, put the shortcuts on your desktop.  Unique image / .ico are included to set unique image for each shortcut.
 
