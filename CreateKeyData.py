@@ -289,7 +289,8 @@ def DrawAsciiTxt():
     			BTC: 3N7VAmRqXDXio33cZ7PU7xS2RRmpLcEjkS
     			LTC: QhCuRJmGYWFhZbXGtihS6Ta5U5F8JoGKFK
     			DGB: DGHGgLcnnX9RFfPQ4FhwDL1LA9oMFxWSRt
-    			AEON: WmsTbZ34B4hXPLYLnm8m95KzdKbD5FL445c2oc6qSJK8L7nt1ThjDtMdt7zJNKVaef6Eg2p3C3YRXbouthD9BfQ12ERHBCRTq
+    			AEON: Wms2t9JMT7mWwxTxA4RcmCaQeVWPtERKtfQv6LFTTAhf9pbfaiKduZoXUG298K4c6LWpCKCxaTvejiZPkTqcuUQw2ABPRTd6F
+    			RVN: RNtsjwFXhyoczjBtiuKbJAuBUULDFsVg6H
     			STEEM: @Axiom-Prime
 
     """
