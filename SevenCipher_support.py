@@ -9,6 +9,7 @@
 import sys
 import os
 import time
+import imp
 import subprocess
 import pyperclip
 import JsonUtil
@@ -49,6 +50,9 @@ def set_Tk_var():
     keyCipher = StringVar()
     global DataText
     DataText = StringVar()
+
+    global GnomicPath
+    GnomicPath = StringVar()
 
     global DataTextField
     DataTextField = None
@@ -221,8 +225,16 @@ def TurnKey():
 
 def KeyPrompt():
     """Prompt to get usb key path.
+        If there is a GnomicKey.py file
+        in the key path use that instead
+        of the internal version.
     """
     keyPath.set(askopenfilename(title="SET KEY PATH", initialdir = initial_dir, filetypes = [('json files', '.json')]))
+    algoFile = os.path.dirname(keyPath.get()) + "GnomicKey.py"
+
+    if os.path.isfile(algoFile):
+        GnomicKey = imp.load_source('GnomicKey', algoFile)
+
     TurnKey()
 
 def init(top, gui, *args, **kwargs):
